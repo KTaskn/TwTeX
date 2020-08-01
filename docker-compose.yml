@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  vue:
+    build: ./
+    volumes:
+      - ./:/www
+    ports:
+      - "127.0.0.1:8901:8080"
+    tty: true
