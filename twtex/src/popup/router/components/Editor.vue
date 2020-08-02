@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-p {
-  font-size: 20px;
+textarea {
+  width: 100%;
 }
 </style>

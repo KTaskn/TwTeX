@@ -1,0 +1,4 @@
+flask==1.0.2
+uwsgi==2.0.17
+tweepy
+flask_cors

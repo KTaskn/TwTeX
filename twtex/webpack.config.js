@@ -94,6 +94,11 @@ const config = {
       },
     ]),
   ],
+  node: {
+    fs: 'empty',
+    net: 'empty',
+    tls: 'empty',
+  },
 };
 
 if (config.mode === 'production') {
