@@ -1,6 +1,5 @@
 <template>
   <div class="preview-container">
-    <h2>Preview</h2>
     <span v-for="a_row in rows" :key="a_row">
       <p v-html="a_row"></p>
     </span>

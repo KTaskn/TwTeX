@@ -1,5 +1,5 @@
 <template>
-  <textarea v-model="message" @input="inputs" :rows="10" placeholder="What's happening?" />
+  <textarea v-model="message" @input="inputs" :rows="10" placeholder="TwTex" />
 </template>
 
 <script>
